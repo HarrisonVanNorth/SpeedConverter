@@ -18,6 +18,8 @@ public class Main {
         calculateScore(75);
 
         System.out.println(MethodOverload.calcFeetAndInchesToCentimeters(6,0));
+        CodingExercise.printYearsAndDays(525600);
+        CodingExercise.printYearsAndDays(561600);
     }
     // method overloading
     public static int calculateScore (String playerName, int score) {
