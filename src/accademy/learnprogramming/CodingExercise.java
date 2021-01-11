@@ -24,4 +24,25 @@ public class CodingExercise {
 
 
     }
+
+    public static void printYearsAndDays (long minutes){
+        long hours;
+        long days;
+        long years;
+        if(minutes < 0){
+            System.out.println("Invalid Value");
+        }
+        hours = minutes/60;
+        days = hours/24;
+        years = days/365;
+
+        if(years >= 1){
+            days = days%365;
+        }
+        System.out.println("Years " + years + " Days " + days);
+
+
+    }
+
+
 }
